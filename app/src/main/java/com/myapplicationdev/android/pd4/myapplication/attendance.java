@@ -6,6 +6,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
@@ -30,7 +31,7 @@ public class attendance extends AppCompatActivity {
 	FirebaseFirestore fStore;
 	FirebaseAuth fAuth;
 	Button btnTakeAttendance;
-	EditText etDate;
+	TextView etDate;
 	RadioGroup rg;
 	RadioButton rb;
 	String strDate, attend,userID,id;
@@ -44,7 +45,7 @@ public class attendance extends AppCompatActivity {
 		fStore = FirebaseFirestore.getInstance();
 		userID = fAuth.getCurrentUser().getUid();
 		btnTakeAttendance = (Button) findViewById(R.id.btnTakeAttendance);
-		etDate = (EditText) findViewById(R.id.etDate);
+		etDate = (TextView) findViewById(R.id.etDate);
 		rg = (RadioGroup) findViewById(R.id.radioGroup1);
 		strDate = new SimpleDateFormat("MMM dd, yyyy", Locale.getDefault()).format(new Date());
 		etDate.setText(strDate);

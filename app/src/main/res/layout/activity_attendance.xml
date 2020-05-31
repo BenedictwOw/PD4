@@ -1,56 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="@color/common_google_signin_btn_text_dark_default">
+    android:background="@color/colorBackground">
 
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Are you here for practice?"
-        android:textSize="30dp"/>
+        android:text="Are YOU AT PRACTICE FOR?"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"/>
 
-    <EditText
+    <TextView
         android:id="@+id/etDate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView2"
         android:ems="10"
         android:inputType="textPersonName"
-        android:editable="false"
-        android:textSize="18sp"
-        tools:ignore="Deprecated" />
+        android:textSize="55sp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:text="27 May 2020"/>
     <RadioGroup
         android:id="@+id/radioGroup1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_gravity="center"
         android:layout_below="@+id/etDate">
 
         <RadioButton android:id="@+id/radio0"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="Yes" />
+            android:text="Yes"
+            android:textSize="55sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"/>
 
         <RadioButton android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="No" />
-
-
+            android:text="No"
+            android:textSize="55sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"/>
     </RadioGroup>
     <Button
         android:id="@+id/btnTakeAttendance"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
         android:text="OK"
-        android:layout_below="@+id/radioGroup1"/>
+        android:gravity="center"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_below="@+id/radioGroup1"
+        android:background="@drawable/rounded_button"/>
 
 </LinearLayout>
 

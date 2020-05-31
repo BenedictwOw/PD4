@@ -16,7 +16,7 @@
       android:layout_marginTop="130dp">
     <TextView
         android:id="@+id/profID"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:text="Student ID:"
@@ -24,7 +24,7 @@
         android:inputType="textPersonName"/>
     <TextView
         android:id="@+id/profName"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
@@ -34,7 +34,7 @@
 
     <TextView
         android:id="@+id/profEmail"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:ems="10"
@@ -45,7 +45,7 @@
 
     <TextView
         android:id="@+id/profHP"
-        android:layout_width="300dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:text="Phone Number:"
