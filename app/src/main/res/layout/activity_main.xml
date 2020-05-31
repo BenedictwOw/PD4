@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sign_up_bg2">
+  <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="150dp"
+      android:src="@drawable/logo"
+      android:layout_marginTop="140dp">
+  </ImageView>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="20dp">
+
+    <EditText
+        android:id="@+id/etEmailSignIn"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:textColorHint="@color/cardview_light_background"
+        android:hint="Email"
+        android:drawableLeft="@drawable/loginicon1"
+        android:drawablePadding="4dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background">
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/etPassSingIn"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:textSize="15sp"
+        android:fontFamily="@font/roboto_light"
+        android:hint="Password"
+        android:textAlignment="textStart"
+        android:gravity="start"
+        android:drawableLeft="@drawable/loginicon2"
+        android:drawablePadding="4dp"
+        android:textColorHint="@color/cardview_light_background"
+        android:textColor="@color/cardview_light_background"
+        android:backgroundTint="@color/cardview_light_background"></EditText>
+
+    <TextView
+        android:id="@+id/btnSubmit"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="230dp"
+        android:layout_height="34dp"
+        android:text="LOG IN"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppins_bold"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:clickable="true"
+        android:background="@drawable/rounded_button"/>
+    <TextView
+        android:id="@+id/btnSignUp1"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="15dp"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginBottom="60dp"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
+
+
+  </LinearLayout>
+</LinearLayout>

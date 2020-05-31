@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "974822244151",
+    "firebase_url": "https://pd-fourth-app.firebaseio.com",
+    "project_id": "pd-fourth-app",
+    "storage_bucket": "pd-fourth-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974822244151:android:a1fb874e09afd78c9924b2",
+        "android_client_info": {
+          "package_name": "com.myapplicationdev.android.pd4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974822244151-soma43bkrh5co5qtr8ibl08aej52lpo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa6BWNf4Ckb1rD80eBHtGJ2vyLItiLo2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974822244151-soma43bkrh5co5qtr8ibl08aej52lpo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974822244151:android:b7f5f7d84b9d9ddf9924b2",
+        "android_client_info": {
+          "package_name": "sg.edu.rp.webservices.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974822244151-24sa1avc2bdb2e3ieftic9fcet7rhksi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sg.edu.rp.webservices.myapplication",
+            "certificate_hash": "8ce5f11d59313c867520c185787c7ec42642b8e7"
+          }
+        },
+        {
+          "client_id": "974822244151-soma43bkrh5co5qtr8ibl08aej52lpo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa6BWNf4Ckb1rD80eBHtGJ2vyLItiLo2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974822244151-soma43bkrh5co5qtr8ibl08aej52lpo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
