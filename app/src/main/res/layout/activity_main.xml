@@ -54,6 +54,7 @@
         android:drawablePadding="4dp"
         android:textColorHint="@color/cardview_light_background"
         android:textColor="@color/cardview_light_background"
+        android:inputType="textPassword"
         android:backgroundTint="@color/cardview_light_background"></EditText>
 
     <TextView

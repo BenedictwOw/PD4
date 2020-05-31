@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -7,13 +9,24 @@
 
 
     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:text="ATTENDANCE"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:fontFamily="@font/poppins_bold"/>
+
+    <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Are YOU AT PRACTICE FOR?"
+        android:text="ARE YOU AT PRACTICE FOR"
         android:textSize="20dp"
         android:gravity="center"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="120dp"
         android:fontFamily="@font/poppins_bold"
         android:textColor="@color/common_google_signin_btn_text_dark_default"/>
 
@@ -42,16 +55,18 @@
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="Yes"
-            android:textSize="55sp"
+            android:textSize="45sp"
             android:fontFamily="@font/poppins_bold"
+            android:layout_marginRight="12dp"
             android:textColor="@color/common_google_signin_btn_text_dark_default"/>
 
         <RadioButton android:id="@+id/radio1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No"
-            android:textSize="55sp"
+            android:textSize="45sp"
             android:fontFamily="@font/poppins_bold"
+            android:layout_marginLeft="12dp"
             android:textColor="@color/common_google_signin_btn_text_dark_default"/>
     </RadioGroup>
     <Button
@@ -61,7 +76,7 @@
         android:textSize="20sp"
         android:text="OK"
         android:gravity="center"
-        android:layout_marginLeft="140dp"
+        android:layout_gravity="center"
         android:layout_marginTop="100dp"
         android:textColor="@color/common_google_signin_btn_text_dark_default"
         android:layout_below="@+id/radioGroup1"

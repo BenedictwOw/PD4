@@ -27,7 +27,6 @@ public class homepage extends AppCompatActivity {
         btnProfile = (ImageView)findViewById(R.id.btnProfile);
         btnLogout  = (TextView)findViewById(R.id.btnLogout);
         btnPitchPipe = (ImageView)findViewById(R.id.btnPitchPipe);
-        Toast.makeText(homepage.this, id, Toast.LENGTH_SHORT).show();
         btnProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

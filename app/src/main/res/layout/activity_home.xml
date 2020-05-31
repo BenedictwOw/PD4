@@ -132,7 +132,7 @@
                                 android:textSize="20sp"
                                 android:layout_marginTop="33dp"
                                 android:textColor="@color/common_google_signin_btn_text_dark_default"
-                                android:fontFamily="@font/poppins_semibold"
+                                android:fontFamily="@font/poppins_bold"
                                 android:layout_marginLeft="85dp"/>
                         </RelativeLayout>
 
